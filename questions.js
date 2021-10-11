@@ -1,136 +1,142 @@
 questions = [
     {
         "id": 0,
-        "question": "Freedom of business is the best practical way a society can prosper.",
+        "question": "Свобода предпринимательства является наилучшим практическим способом процветания общества.",
         "effects": {"right": 1}
-    },
-    {
+    }, {
         "id": 1,
-        "question": "Charity is a better way of helping those in need than social welfare.",
+        "question": "Благотворительность-это лучший способ помочь нуждающимся, чем социальное обеспечение.",
         "effects": {"right": 1}
-    },
-    {
+    }, {
         "id": 2,
-        "question": "Wages are always fair, as employers know best what a worker's labour is worth.",
+        "question": "Заработная плата всегда справедлива, так как работодатели лучше всего знают, чего стоит труд работника.",
         "effects": {"right": 1}
-    },
-    {"id": 3, "question": "It is \"human nature\" to be greedy.", "effects": {"right": 1}},
-    {
+    }, {"id": 3, "question": "Это \"человеческая природа\", чтобы быть жадной.", "effects": {"right": 1}}, {
         "id": 4,
-        "question": "\"Exploitation\" is an outdated term, as the struggles of 1800s capitalism doesn't exist anymore.",
+        "question": "\"Эксплуатация\"-это устаревший термин, поскольку борьба 1800-х годов капитализма больше не существует.",
         "effects": {"right": 1}
-    },
-    {"id": 5, "question": "Communism is an ideal that can never work in practice.", "effects": {"right": 1}},
-    {
+    }, {
+        "id": 5,
+        "question": "Коммунизм-это идеал, который никогда не может работать на практике.",
+        "effects": {"right": 1}
+    }, {
         "id": 6,
-        "question": "Taxation of the wealthy is a bad idea, society would be better off without it.",
+        "question": "Налогообложение богатых-плохая идея, общество было бы лучше без него.",
         "effects": {"right": 1}
-    },
-    {"id": 7, "question": "The harder you work, the more you progress up the social ladder.", "effects": {"right": 1}},
-    {
+    }, {
+        "id": 7,
+        "question": "Чем сильнее ты работаешь, тем больше поднимаешься по социальной лестнице.",
+        "effects": {"right": 1}
+    }, {
         "id": 8,
-        "question": "Organisations and corporations cannot be trusted and need regulating by the government.",
+        "question": "Организации и корпорации не могут быть надежными и нуждаются в регулировании со стороны правительства.",
         "effects": {"right": -1}
-    },
-    {
+    }, {
         "id": 9,
-        "question": "A government that provides for everyone is an inherently good idea.",
+        "question": "Правительство, которое предоставляет каждому человеку,-это изначально хорошая идея.",
         "effects": {"right": -1}
-    },
-    {
+    }, {
         "id": 10,
-        "question": "The current welfare system should be expanded to further combat inequality.",
+        "question": "Необходимо расширить нынешнюю систему социального обеспечения в целях дальнейшего борьбы с неравенством.",
         "effects": {"right": -1}
-    },
-    {"id": 11, "question": "Land should not be a commodity to be bought and sold.", "effects": {"right": -1}},
-    {"id": 12, "question": "All industry and the bank should be nationalised.", "effects": {"right": -1}},
-    {"id": 13, "question": "Class is the primary division of society.", "effects": {"right": -1}},
-    {"id": 14, "question": "Economic inequality is too high in the world.", "effects": {"right": -1}},
-    {
+    }, {
+        "id": 11,
+        "question": "Земля не должна быть товаром, покупаться и продаваться.",
+        "effects": {"right": -1}
+    }, {"id": 12, "question": "Все отрасли и банк должны быть национализированы.", "effects": {"right": -1}}, {
+        "id": 13,
+        "question": "Класс является основным разделением общества.",
+        "effects": {"right": -1}
+    }, {"id": 14, "question": "Экономическое неравенство слишком велико в мире.", "effects": {"right": -1}}, {
         "id": 15,
-        "question": "Sometimes it is right that the government may spy on its citizens to combat extremists and terrorists.",
+        "question": "Иногда правильно, что правительство может шпионить за своими гражданами для борьбы с экстремистами и террористами.",
         "effects": {"auth": 1}
-    },
-    {
+    }, {
         "id": 16,
-        "question": "Authority figures, if morally correct, are a good thing for society.",
+        "question": "Авторитетные деятели, если они морально правильные, хорошо относятся к обществу.",
         "effects": {"auth": 1}
-    },
-    {"id": 17, "question": "Strength is necessary for any government to succeed.", "effects": {"auth": 1}},
-    {
+    }, {
+        "id": 17,
+        "question": "Сила необходима для того, чтобы любое правительство добилось успеха.",
+        "effects": {"auth": 1}
+    }, {
         "id": 18,
-        "question": "Only the government can fairly and effectively regulate organisations.",
+        "question": "Только правительство может справедливо и эффективно регулировать организации.",
         "effects": {"auth": 1}
-    },
-    {"id": 19, "question": "Society requires structure and bureaucracy in order to function.", "effects": {"auth": 1}},
-    {"id": 20, "question": "Mandatory IDs should be used to ensure public safety.", "effects": {"auth": 1}},
-    {
+    }, {
+        "id": 19,
+        "question": "Для того чтобы функционировать, общество нуждается в структуре и бюрократии.",
+        "effects": {"auth": 1}
+    }, {
+        "id": 20,
+        "question": "Для обеспечения общественной безопасности необходимо использовать обязательные идентификаторы.",
+        "effects": {"auth": 1}
+    }, {
         "id": 21,
-        "question": "In times of crisis, safety becomes more important than civil liberties.",
+        "question": "В условиях кризиса безопасность становится более важной, чем гражданские свободы.",
         "effects": {"auth": 1}
-    },
-    {"id": 22, "question": "If you have nothing to hide, you have nothing to fear.", "effects": {"auth": 1}},
-    {
+    }, {"id": 22, "question": "Если тебе нечего скрывать, тебе нечего бояться.", "effects": {"auth": 1}}, {
         "id": 23,
-        "question": "The government should be less involved in the day to day life of its citizens.",
+        "question": "Правительство должно менее активно участвовать в повседневной жизни своих граждан.",
         "effects": {"auth": -1}
-    },
-    {"id": 24, "question": "Without democracy, a society is nothing.", "effects": {"auth": -1}},
-    {"id": 25, "question": "Jury nullification should be legal.", "effects": {"auth": -1}},
-    {"id": 26, "question": "The smaller the government, the freer the people.", "effects": {"auth": -1}},
-    {
+    }, {"id": 24, "question": "Без демократии общество-ничто.", "effects": {"auth": -1}}, {
+        "id": 25,
+        "question": "Аннулирование присяжных должно быть законным.",
+        "effects": {"auth": -1}
+    }, {"id": 26, "question": "Чем меньше правительство, тем свободнее народ.", "effects": {"auth": -1}}, {
         "id": 27,
-        "question": "The government should, at most, provide emergency services and law enforcement.",
+        "question": "Правительство должно, в большинстве своем, предоставлять экстренные службы и правоохранительные органы.",
         "effects": {"auth": -1}
-    },
-    {
+    }, {
         "id": 28,
-        "question": "The police was not made to protect the people, but to uphold the status-quo by force.",
+        "question": "Полиция была сделана не для того, чтобы защитить народ, а для поддержания статус-кво силой.",
         "effects": {"auth": -1}
-    },
-    {
+    }, {
         "id": 29,
-        "question": "State schools are a bad idea because our state shouldn't be influencing our children.",
+        "question": "Государственные школы-плохая идея, потому что наше государство не должно влиять на наших детей.",
         "effects": {"auth": -1}
-    },
-    {
+    }, {
         "id": 30,
-        "question": "Two consenting individuals should be able to do whatever they want with each other, even if it makes me uncomfortable.",
+        "question": "Два человека по обоюдному согласию должны иметь возможность делать то, что они хотят друг с другом, даже если это делает меня неуютно.",
         "effects": {"prog": 1}
-    },
-    {
+    }, {
         "id": 31,
-        "question": "An individual's body is their own property, and they should be able to do anything they desire to it.",
+        "question": "Тело индивида-это их собственная собственность, и они должны иметь возможность делать все, что они хотят.",
         "effects": {"prog": 1}
-    },
-    {
+    }, {
         "id": 32,
-        "question": "A person should be able to worship whomever or whatever they want.",
+        "question": "Человек должен иметь возможность поклоняться, кем угодно.",
         "effects": {"prog": 1}
-    },
-    {"id": 33, "question": "Nudism is perfectly natural.", "effects": {"prog": 1}},
-    {"id": 34, "question": "Animals deserve certain universal rights.", "effects": {"prog": 1}},
-    {"id": 35, "question": "Gender is a social construct, not a natural state of affairs.", "effects": {"prog": 1}},
-    {
+    }, {"id": 33, "question": "Нудизм совершенно естественный.", "effects": {"prog": 1}}, {
+        "id": 34,
+        "question": "Животные заслуживают определенных всеобщих прав.",
+        "effects": {"prog": 1}
+    }, {
+        "id": 35,
+        "question": "Гендерная составляя является социальной конструкцией, а не естественным состоянием дел.",
+        "effects": {"prog": 1}
+    }, {
         "id": 36,
-        "question": "Laws based on cultural values, rather than ethical ones, aren't justice.",
+        "question": "Законы, основанные на культурных ценностях, а не этические, не справедливы.",
         "effects": {"prog": 1}
-    },
-    {
+    }, {
         "id": 37,
-        "question": "Autonomy of body extends even to minors, the mentally ill, and serious criminals.",
+        "question": "Автономия тела распространяется даже на несовершеннолетних, душевнобольных и серьезных преступников.",
         "effects": {"prog": 1}
-    },
-    {"id": 38, "question": "Homosexuality is against my values.", "effects": {"prog": -1}},
-    {"id": 39, "question": "Transgender individuals should not be able to adopt children.", "effects": {"prog": -1}},
-    {"id": 40, "question": "Drugs are harmful and should be banned.", "effects": {"prog": -1}},
-    {"id": 41, "question": "The death penalty should exist for certain crimes.", "effects": {"prog": -1}},
-    {"id": 42, "question": "Victimless crimes should still be punished.", "effects": {"prog": -1}},
-    {"id": 43, "question": "One cannot be moral without religion.", "effects": {"prog": -1}},
-    {
-        "id": 44,
-        "question": "Parents should hold absolute power over their children, as they are older and more experienced.",
+    }, {"id": 38, "question": "Гомосексуализм против моих ценностей.", "effects": {"prog": -1}}, {
+        "id": 39,
+        "question": "Транссексуалы не должны иметь возможности усыновлять детей.",
         "effects": {"prog": -1}
-    },
-    {"id": 45, "question": "Is Taiwan a country?", "effects": {"auth": 1}},
-];
+    }, {"id": 40, "question": "Наркотики вредны и должны быть запрещены.", "effects": {"prog": -1}}, {
+        "id": 41,
+        "question": "За определенные преступления должна существовать смертная казнь.",
+        "effects": {"prog": -1}
+    }, {
+        "id": 42,
+        "question": "Преступления, совершаемые без жертв, по-прежнему подлежат наказанию.",
+        "effects": {"prog": -1}
+    }, {"id": 43, "question": "Нельзя быть нравственным без религии.", "effects": {"prog": -1}}, {
+        "id": 44,
+        "question": "Родители должны иметь абсолютную власть над своими детьми, так как они старше и более опытные.",
+        "effects": {"prog": -1}
+    }, {"id": 45, "question": "Тайвань является страной?", "effects": {"auth": 1}}];
